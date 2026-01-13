@@ -15,6 +15,7 @@ def gradient_f(x: float, y: float) -> tuple:
     return (dx, dy)
 
 
+
 def gradient_descent(starting_values: tuple, learning_rate: float, num_iterations: int) -> tuple:
     '''
     Perform gradient descent optimization.
